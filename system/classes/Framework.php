@@ -3,7 +3,7 @@
 
 class Framework
 {
-    public static function view($view_name, $data)
+    public static function view($view_name, $data = null)
     {
         include "views/" . $view_name . ".php";
     }

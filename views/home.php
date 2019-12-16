@@ -25,8 +25,8 @@
             </p>
         </div>
         <nav>
-            <a href="#">Login</a>
-            <a href="#">Registration</a>
+            <a href="?auth=login">Login</a>
+            <a href="?auth=registration">Registration</a>
         </nav>
     </div>
     <nav>
