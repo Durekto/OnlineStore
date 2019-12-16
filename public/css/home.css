@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    border: 1px solid gray;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid gray;
+    padding: 15px;
+}
+
+.menu {
+    padding: 15px;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px solid gray;
+    /* TODO: Замени гриды на флексы и чтобы было неважно сколько эллементов, они ведь динамически выводятся с БД   */
+}
+
+#logo img {
+    max-width: 300px;
+}
+
+main {
+    border: 1px solid gray;
+    padding: 15px;
+}
+
+article {
+    border: 1px dotted gray;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* TODO: Замени гриды на флексы и чтобы было неважно сколько эллементов, они ведь динамически выводятся с БД   */
+}
+
+article img {
+    border: 1px dotted gray;
+    max-width: 30%;
+}
+
+footer {
+    border: 1px solid gray;
+    padding: 15px;
+}
