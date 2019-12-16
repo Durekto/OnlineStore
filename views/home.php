@@ -30,9 +30,9 @@
         </nav>
     </div>
     <nav>
-        <a href="#">Home</a>
-        <a href="#">Contacts</a>
-        <a href="#">About US</a>
+        <?php foreach($data['pages'] as $page) :?>
+            <a href=""><?php echo $page['name']; ?></a>
+        <?php endforeach; ?>
     </nav>
 </header>
 <main>

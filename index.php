@@ -10,6 +10,8 @@ use Framework;
 
 include "models/Product.php";
 use Product;
+include "models/Page.php";
+use Page;
 
 if(empty($_GET)) {
      HomeController::index();
